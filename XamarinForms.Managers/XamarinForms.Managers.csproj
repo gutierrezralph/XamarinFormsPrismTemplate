@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XamarinForms.Common.Mapper\XamarinForms.Common.Mapper.csproj" />
+    <ProjectReference Include="..\XamarinForms.Common\XamarinForms.Common.csproj" />
+    <ProjectReference Include="..\XamarinForms.Entities\XamarinForms.Entities.csproj" />
+    <ProjectReference Include="..\XamarinForms.Repository\XamarinForms.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
