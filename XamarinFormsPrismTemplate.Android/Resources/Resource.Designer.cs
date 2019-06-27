@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("XamarinForms.Android.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("XamarinFormsPrismTemplate.Android.Resource", IsApplication=true)]
 
-namespace XamarinForms.Android
+namespace XamarinFormsPrismTemplate.Android
 {
 	
 	
@@ -26,7 +26,7 @@ namespace XamarinForms.Android
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::XamarinForms.Android.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::XamarinFormsPrismTemplate.Android.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

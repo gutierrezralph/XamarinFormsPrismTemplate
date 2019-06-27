@@ -8,12 +8,12 @@ using Android.Widget;
 using Android.OS;
 using Prism;
 using Prism.Ioc;
-using XamarinForms.Android.Service;
-using XamarinForms.Common.Bluetooth;
-using XamarinForms.Repository;
-using XamarinForms.Android.Database;
+using XamarinFormsPrismTemplate.Android.Service;
+using XamarinFormsPrismTemplate.Common.Bluetooth;
+using XamarinFormsPrismTemplate.Repository;
+using XamarinFormsPrismTemplate.Android.Database;
 
-namespace XamarinForms.Android
+namespace XamarinFormsPrismTemplate.Android
 {
     [Activity(Label = "ERNIPrismTemplate", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity

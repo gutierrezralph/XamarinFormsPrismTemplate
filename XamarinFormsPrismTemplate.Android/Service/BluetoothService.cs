@@ -10,10 +10,10 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using XamarinForms.Common.Bluetooth;
-using XamarinForms.Contract;
+using XamarinFormsPrismTemplate.Common.Bluetooth;
+using XamarinFormsPrismTemplate.Contract;
 
-namespace XamarinForms.Android.Service
+namespace XamarinFormsPrismTemplate.Android.Service
 {
     public class BluetoothService : IBluetoothService
     {

@@ -10,10 +10,10 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using XamarinForms.Repository;
+using XamarinFormsPrismTemplate.Repository;
 using SQLite;
 
-namespace XamarinForms.Android.Database
+namespace XamarinFormsPrismTemplate.Android.Database
 {
     public class DatabaseFactory : IDatabaseFactory
     {
